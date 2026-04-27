@@ -1,0 +1,18 @@
+image_search_app/
+│
+├─ app.py
+├─ requirements.txt
+├─ templates/
+│   └─ index.html
+├─ static/
+│   ├─ css/
+│   │   └─ style.css
+│   └─ js/
+│       └─ main.js
+├─ scrapers/
+│   ├─ __init__.py
+│   ├─ pinterest_scraper.py
+│   ├─ behance_scraper.py
+│   └─ unsplash_scraper.py
+└─ cache/
+    └─ results.json  (初始可空 {})
